@@ -1,0 +1,17 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    object-fit: cover;
+}
+header,nav,ul,figure,figcaption,article,section,div,footer,strong{
+    display: flex;
+    flex-wrap: wrap;
+}
